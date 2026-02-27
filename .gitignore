@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.cursor/
+session_data/
+transcripts/
+.env
