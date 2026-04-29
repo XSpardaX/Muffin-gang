@@ -27,9 +27,18 @@ python main.py
 
 You get 2 questions per character. Ask questions, then accuse one of the three. The game tracks statements, contradictions, and suspicion internally.
 
+## Run (Web)
+
+```bash
+python -m streamlit run web_app.py
+```
+
+Then open the local URL Streamlit prints (usually `http://localhost:8501`).
+
 ## Project layout
 
 - `main.py` – CLI entry point
+- `web_app.py` – Streamlit web UI
 - `src/` – Core modules:
   - `types.py` – Data models
   - `config.py` – Character personas and model mapping
